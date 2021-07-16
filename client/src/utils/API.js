@@ -28,7 +28,7 @@ export const loginUser = (userData) => {
   });
 };
 
-// save book data for a logged in user
+// save book data for a loggedin user
 export const saveBook = (bookData, token) => {
   return fetch('/api/users', {
     method: 'PUT',
