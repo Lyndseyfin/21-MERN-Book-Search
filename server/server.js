@@ -20,7 +20,7 @@ const server = new ApolloServer({
 // integrate our apollo server with the Express application middleware
 server.applyMiddleware({ app });
 
-app.use(express.urlencoded({ extended: true }));
+app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 // if we're in production, serve client/build as static assets
