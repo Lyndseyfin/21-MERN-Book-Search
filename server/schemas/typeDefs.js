@@ -19,12 +19,8 @@ const typeDefs = gql`
     link: String
     title: String
   }
-  type Auth {
-    token: ID
-    user: User
-  }
+  
   input BookInput {
-    _id: ID
     bookId: String
     authors: [String]
     description: String
@@ -32,6 +28,11 @@ const typeDefs = gql`
     image: String
     link: String
   } 
+
+  type Auth {
+    token: ID!
+    user: User
+  }
   type Query {
     me: User
   }
