@@ -32,7 +32,9 @@ const typeDefs = gql`
     token: ID!
     user: User
   }
-  type Query {
+  
+  type
+   Query {
     me: User
   }
   type Mutation {
