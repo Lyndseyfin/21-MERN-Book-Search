@@ -1,7 +1,7 @@
 # 21-MERN-Book-Search
 
 # Description
-MERN book search engine applicaiton allowers a user to search for books and save their book searches once signed up and logged in. The application is built using Google Books API search engine build with GraphQL API and Apollo Server.
+MERN book search engine applicaiton allowers a user to search for books and save their book searches once signed up and logged in. The application is built using Google Books API search engine, GraphQL API and Apollo Server.
 
 # Table of Contents
 1. [Title](Title)

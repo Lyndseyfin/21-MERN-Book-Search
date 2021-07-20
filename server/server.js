@@ -18,15 +18,15 @@ const server = new ApolloServer({
   context: authMiddleware
 });
 
-mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://localhost/limitless-hamlet',
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true,
-    useFindAndModify: false,
-  },
-);
+// mongoose.connect(
+//   process.env.MONGODB_URI || 'mongodb://localhost/limitless-hamlet',
+//   {
+//     useNewUrlParser: true,
+//     useUnifiedTopology: true,
+//     useCreateIndex: true,
+//     useFindAndModify: false,
+//   },
+// );
 // integrate our apollo server with the Express application middleware
 server.applyMiddleware({ app });
 
