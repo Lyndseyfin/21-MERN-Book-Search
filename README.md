@@ -1,7 +1,7 @@
 # 21-MERN-Book-Search
 
 # Description
-MERN book search engine applicaiton allowers a user to search for books and save their book searches once signed up and logged in. The application is built using Google Books API search engine, GraphQL API and Apollo Server.
+MERN book search engine applicaiton allowers a user to search for books and save their book searches once signed up and logged in. The application is built using Google Books API search engine, GraphQL and Apollo Server.
 
 # Table of Contents
 1. [Title](Title)
@@ -24,7 +24,7 @@ Feel free to create a pull request or fork repo
 ## License
 ![GitHub license](https://img.shields.io/badge/license-MIT-brightgreen)
 ## Heroku
-<a href="">Budget Tracker</a>
+<a href="https://limitless-hamlet-49985.herokuapp.com/">Book Search Engine</a>
 
 ## Screenshot
 ![screenshot](client/images/book.png)
